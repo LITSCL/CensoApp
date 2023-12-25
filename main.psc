@@ -89,7 +89,7 @@ FinAlgoritmo
 
 Funcion __validado <- __validar_numero(__numero)
 	__validado = Verdadero
-	Para i = 5 Hasta Longitud(__numero) Con Paso 1 Hacer
+	Para i = 1 Hasta Longitud(__numero) Con Paso 1 Hacer
 		__v = Subcadena(__numero, i, i)
 		Si __v <> "0" y __v <> "1" y __v <> "2" y __v <> "3" y __v <> "4" y __v <> "5" y __v <> "6" y __v <> "7" y __v <> "8" y __v <> "9" Entonces
 			__validado = Falso
