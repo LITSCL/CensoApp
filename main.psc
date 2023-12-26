@@ -25,7 +25,7 @@ Algoritmo main
 					__tarjetas[i, 2] = "Mujer"
 					__validado = Verdadero
 				De Otro Modo:
-					Escribir "La opcion seleccionada no es valida"
+					Escribir "ERROR: La opcion seleccionada no es valida"
 			FinSegun
 		FinMientras
 		
@@ -65,7 +65,7 @@ Algoritmo main
 					__tarjetas[i, 4] = "Divorciado"
 					__validado = Verdadero
 				De Otro Modo:
-					Escribir "La opcion seleccionada no es valida"
+					Escribir "ERROR: La opcion seleccionada no es valida"
 			FinSegun
 		FinMientras
 	
